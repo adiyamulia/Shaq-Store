@@ -59,8 +59,13 @@ header
 	padding: 2px;
 	background-color: var(--green);
 	color: var(--blue);
-	width: 5%
+	width: 5%;
 	font-weight: bold;
+}
+
+.input-submit:hover
+{
+	color: var(--white);
 }
 
 nav
@@ -204,6 +209,23 @@ nav ul li a:hover
 .populer img
 {
 	border-radius: 10px;
+	margin-top: 5%;
+}
+
+.topup
+{
+	display: grid; 
+	grid-template-columns: repeat(6,1fr);
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+
+}
+
+.topup img
+{
+	border-radius: 10px;
+	margin-top: 5%;
 }
 
 .harga
@@ -304,6 +326,13 @@ footer
 	}
 
 	.populer
+	{
+		display: grid;
+		grid-template-columns: repeat(3,1fr);
+		font-size: 10pt;
+	}
+
+	.topup
 	{
 		display: grid;
 		grid-template-columns: repeat(3,1fr);
